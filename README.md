@@ -63,13 +63,13 @@ Most visual aspects of nodes and edges can be customized. This includes the fill
 The supported node styles include _rectangular_, _rounded_, _elliptic_, and the _diamond_ nodes.
 
 <p align="center">
-  <img width="593" height="103" src="screenshots/node-styles.png">
+  <img width="395" height="69" src="screenshots/node-styles.png">
 </p>
 
 The supported edge styles include _line_ (1), _curve_ (2), _spline_ (3), and _elbow joint_ (4) edges.
 
 <p align="center">
-  <img width="593" height="159" src="screenshots/edge-styles.png">
+  <img width="395" height="106" src="screenshots/edge-styles.png">
 </p>
 
 ### → animated GUI
