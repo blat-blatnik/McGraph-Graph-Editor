@@ -28,7 +28,7 @@ McGraphs fully supports graphs with cycles, negative weights, and parallel edges
 
 Graphs can be saved and loaded from a custom file format (`.graph`). This format is completely lossless meaning graphs can be saved and loaded exactly as they are without any loss of information. Graphs can also be loaded from a "legacy" limited file format that is only supported because the assignment required it. However, this legacy format is lossy, visual customization of nodes and edges, as well as directionality of the edges cannot be saved.
 
-Graphs can be saved and loaded from the `file` menu in the menu bar.
+Graphs can be saved and loaded from the <kbd>file</kbd> menu in the menu bar.
 
 ### → find shortest path between two nodes
 
@@ -38,13 +38,13 @@ The graph solver can be used for many useful operations on graphs, including the
   <img width="720" height="333" src="screenshots/shortest-path.png">
 </p>
 
-To use this feature, you must first mark the _start_ and _goal_ nodes of the graph by right clicking on the respective nodes and clicking the `Mark Start` and `Mark Goal` buttons. Then, right click and select `Find Shortest Path` from the pop-up menu. All nodes and edges along the shortest path will be highlighted. 
+To use this feature, you must first mark the _start_ and _goal_ nodes of the graph by pressing <kbd>Right-click</kbd> on the respective nodes and clicking the <kbd>Mark Start</kbd> and <kbd>Mark Goal</kbd> buttons. Then, <kbd>Right-click</kbd> anywhere on the graph and select the <kbd>Find Shortest Path</kbd> button from the pop-up menu. All nodes and edges along the shortest path will be highlighted. 
 
 ### → find the distance from one node to all other nodes
 
 The graph solver can also find the distance of one node to all other nodes in a graph. This is also done using the [Bellman-Ford algorithm](https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm).
 
-To use this feature, you must first mark the _start_ node for this operation by right clicking on the desired node and clicking the `Mark Start` button. Then, right click and select `Explore Graph` from the pop-up menu. All nodes and edges reachable from the _start_ node will be highlighted and marked with their distance to the _start_ node in parenthesis. 
+To use this feature, you must first mark the _start_ node for this operation by pressing <kbd>Right-click</kbd> on the desired node and clicking the <kbd>Mark Start</kbd> button in the pop-up menu. Then, <kbd>Right-click</kbd> and select <kbd>Explore Graph</kbd> from the pop-up menu. All nodes and edges reachable from the _start_ node will be highlighted and marked with their distance to the _start_ node in parenthesis. 
 
 ### → graph coloring
 
@@ -54,7 +54,7 @@ Another useful feature of the graph solver is to perform [graph coloring](https:
   <img width="773" height="333" src="screenshots/usa.png">
 </p>
 
-To use this feature, right click anywhere on the graph and select `Color Graph` from the pop-up menu.
+To use this feature, <kbd>Right-click</kbd> anywhere on the graph and select <kbd>Color Graph</kbd> from the pop-up menu.
 
 ### → large degree of visual customization
 
@@ -76,7 +76,7 @@ The supported edge styles include _line_ (1), _curve_ (2), _spline_ (3), and _el
 
 McGraph's GUI is mostly animated and responsive to user input, making it pretty intuitive. For example, when you select a node it will quickly blink to indicate that it is selected. When you hover over the button that changes the fill color of a node, that node's fill color will begin to flash to indicate what the button does.
 
-Multiple nodes and edges can be selected by holding <kbd>CTRL</kbd> or <kbd>⌘</kbd> when clicking a node, or dragging a rectangle around the desired nodes to select. 
+Multiple nodes and edges can be selected with <kbd>CTRL</kbd>/<kbd>⌘</kbd>+<kbd>Click</kbd>. A selection rectangle can be created with <kbd>CTRL</kbd>/<kbd>⌘</kbd>+<kbd>Click-drag</kbd>. 
 
 ## Limitations
 
