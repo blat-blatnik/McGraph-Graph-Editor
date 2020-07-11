@@ -14,13 +14,13 @@ This program was made for a 1-month assignment in Object Oriented Programming, s
 
 ## How to run
 
-[Download]() `mcgraph.jar`, then run 
+[Download]() `mcgraph.jar` then run: 
 
 ```bash
 $ java -jar mcgraph.jar
 ```
 
-To start the program with a particular graph run
+To start the program with a particular graph run:
 
 ```bash
 $ java -jar mcgraph.jar "dir/file.graph"
