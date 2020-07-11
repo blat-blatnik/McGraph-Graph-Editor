@@ -34,6 +34,10 @@ Graphs can be saved and loaded from the `file` menu in the menu bar.
 
 The graph solver can be used for many useful operations on graphs, including the classic task of finding the shortest path between any two nodes on the graph. This is also done using the [Bellman-Ford algorithm](https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm), which can deal with edges with negative weights.
 
+<p align="center">
+  <img width="720" height="333" src="screenshots/shortest-path.png">
+</p>
+
 To use this feature, you must first mark the _start_ and _goal_ nodes of the graph by right clicking on the respective nodes and clicking the `Mark Start` and `Mark Goal` buttons. Then, right click and select `Find Shortest Path` from the pop-up menu. All nodes and edges along the shortest path will be highlighted. 
 
 ### → find the distance from one node to all other nodes
@@ -46,6 +50,8 @@ To use this feature, you must first mark the _start_ node for this operation by 
 
 Another useful feature of the graph solver is to perform [graph coloring](https://en.wikipedia.org/wiki/Graph_coloring). This will color all nodes in the graph such that no nodes that are connected by an edge share the same color. McGraph uses a [greedy graph coloring algorithm](https://en.wikipedia.org/wiki/Greedy_coloring) and uses heuristics to come up with a good node order. This means that graphs will _usually_ be colored with the smallest possible number of different colors, however, this is not _always_ the case. Even when the graph coloring isn't completely optimal, it usually comes pretty close.
 
+![](screenshots/usa.png)
+
 To use this feature, right click anywhere on the graph and select `Color Graph` from the pop-up menu.
 
 ### → large degree of visual customization
@@ -54,7 +60,15 @@ Most visual aspects of nodes and edges can be customized. This includes the fill
 
 The supported node styles include _rectangular_, _rounded_, _elliptic_, and the _diamond_ nodes.
 
-The supported edge styles include _line_, _curve_, _spline_, and _elbow joint_ edges.
+<p align="center">
+  <img width="593" height="103" src="screenshots/node-styles.png">
+</p>
+
+The supported edge styles include _line_ (1), _curve_ (2), _spline_ (3), and _elbow joint_ (4) edges.
+
+<p align="center">
+  <img width="593" height="159" src="screenshots/edge-styles.png">
+</p>
 
 ### → animated GUI
 
