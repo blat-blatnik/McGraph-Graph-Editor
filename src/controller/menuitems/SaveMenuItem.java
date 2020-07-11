@@ -8,8 +8,7 @@ import javax.swing.*;
 import java.awt.event.KeyEvent;
 
 /**
- * @author Boris
- * @version 1.2
+* @version 1.2
  *
  * This control allows the user to save the current graph back to the file it was loaded from - or to a new file
  * if the graph was made without loading from an old file.

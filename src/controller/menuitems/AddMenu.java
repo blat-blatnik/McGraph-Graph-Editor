@@ -12,8 +12,7 @@ import java.awt.geom.Rectangle2D;
 import java.util.Arrays;
 
 /**
- * @author Boris
- * @version 3.0
+* @version 3.0
  *
  * This JMenu has 2 options that allow the user to add either a Node or an Edge to the GraphModel.
  *

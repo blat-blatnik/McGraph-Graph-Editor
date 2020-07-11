@@ -12,8 +12,7 @@ import java.awt.*;
 import java.awt.event.*;
 
 /**
- * @author Boris
- * @version 1.4
+* @version 1.4
  *
  * The user can use this control to change the font size of the selected Nodes in a graph.
  *

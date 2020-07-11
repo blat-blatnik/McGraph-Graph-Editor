@@ -7,8 +7,7 @@ import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
 
 /**
- * @author Boris
- * @version 1.1
+* @version 1.1
  *
  * This class contains some utility methods and fields related to keybindings.
  *

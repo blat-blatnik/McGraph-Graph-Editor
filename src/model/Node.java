@@ -9,9 +9,7 @@ import java.awt.geom.RoundRectangle2D;
 import java.util.Observable;
 
 /**
- * @author Jana
- * @author Boris
- * @version 10.0
+  * @version 10.0
  *
  * This is the class that stores all data of a node. A node has two references to data, once the actual data that
  * the node has and once the visual data, that is used for animations and should not change actual data.

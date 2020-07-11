@@ -8,9 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Jana
- * @author Boris
- * @version 3.0
+  * @version 3.0
  *
  * This class inherits from NodeAndEdgeEdit and provides the necessary information to construct a NodeEdit.
  * The actual edit is handled in the parent class.

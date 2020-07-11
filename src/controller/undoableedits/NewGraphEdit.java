@@ -7,8 +7,7 @@ import javax.swing.undo.CannotRedoException;
 import javax.swing.undo.CannotUndoException;
 
 /**
- * @author Jana
- * @version 1.0
+  * @version 1.0
  *
  * This makes emptying a graph an undoable action. Undo brings the old graph back and redo clears the graph again.
  *

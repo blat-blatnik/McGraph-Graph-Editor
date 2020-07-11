@@ -8,8 +8,6 @@ import javax.swing.*;
 import java.awt.event.KeyEvent;
 
 /**
- * @author Boris
- * @author Jana
  * @version 1.1
  *
  * This control allows the user to paste Nodes and Edges previously saved to the Clipboard.

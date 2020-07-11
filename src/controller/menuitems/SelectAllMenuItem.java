@@ -12,8 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Boris
- * @version 1.0
+* @version 1.0
  *
  * This control allows the user to select all Nodes and Edges in the graph with a single action.
  *

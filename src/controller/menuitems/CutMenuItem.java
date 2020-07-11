@@ -13,8 +13,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Boris
- * @author Jana
  * @version 1.2
  *
  * This control allows the user to cut nodes or edges to the Clipboard so that they can be pasted later.

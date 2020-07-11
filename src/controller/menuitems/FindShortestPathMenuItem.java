@@ -10,8 +10,6 @@ import java.awt.*;
 import java.awt.event.KeyEvent;
 
 /**
- * @author Boris
- * @author Jana
  * @version 1.1
  *
  * This control allows the user to invoke the Solver to find the shortest path between the "start" and "goal" Nodes.

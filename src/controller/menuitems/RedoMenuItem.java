@@ -8,8 +8,6 @@ import javax.swing.undo.UndoManager;
 import java.awt.event.KeyEvent;
 
 /**
- * @author Boris
- * @author Jana
  * @version 1.2
  *
  * This control allows the user to redo an edit previously undo-ed by the UndoMenuItem.

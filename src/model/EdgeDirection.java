@@ -2,8 +2,7 @@ package model;
 
 /**
  * @version 1.0
- * @author Boris
- *
+*
  * This enum encodes the directionality of an Edge.
  *
  * @see Edge

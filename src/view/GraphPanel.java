@@ -16,8 +16,7 @@ import java.awt.geom.*;
 import java.util.Objects;
 
 /**
- * @author Boris
- * @version 99.0
+* @version 99.0
  *
  * This is the JPanel used to display a GraphModel. The GraphPanel also houses the NodeToolBar and the EdgeToolBar
  * controls.

@@ -7,8 +7,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 /**
- * @author Boris
- * @version 2.0
+* @version 2.0
  *
  * Animations are small snippets of code that execute 60 times per second for a fixed duration while playing. They are
  * meant to be used for moving stuff around the screen, changing colors, etc. without any user input. For example, when

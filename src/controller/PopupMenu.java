@@ -15,8 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Boris
- * @version 1.2
+* @version 1.2
  *
  * This PopupMenu appears when the user right-clicks on the GraphPanel. It provides some shortcuts to commonly used
  * controls.

@@ -15,8 +15,7 @@ import java.awt.event.MouseEvent;
 import java.awt.geom.Line2D;
 
 /**
- * @author Boris
- * @version 2.0
+* @version 2.0
  *
  * This control allows the user to change the directionality of the selected Edges. It also plays a ColorBlinkAnimation
  * when the user hovers over the button in order to indicate which Edges will change to the user. All the EdgeDirections

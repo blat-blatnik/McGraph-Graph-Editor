@@ -10,9 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Jana
- * @author Boris
- * @version 3.0
+  * @version 3.0
  *
  * This class handles most edits related to edges and nodes, for example changing the color,
  * the weight, the name of a node, etc. Adding and removing edges is not
@@ -82,7 +80,7 @@ public class NodeAndEdgeEdit extends AbstractUndoableEdit {
             return;
         if (edgesToChange.size() != oldEdges.size())
             return;
-        
+
         // stores copies of the node data in lists, storing the old and new data.
         for (int i = 0; i < nodesToChange.size(); ++i) {
             Node oldNode = oldNodes.get(i);

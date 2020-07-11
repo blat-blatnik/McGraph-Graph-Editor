@@ -18,8 +18,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author Boris
- * @version 2.2
+* @version 2.2
  *
  * This control allows the user to select a font for all selected Nodes from a drop down menu. All entries in the menu
  * have their text shown using the font that they represent in order to make it easier for the user to choose which font

@@ -14,9 +14,7 @@ import java.util.*;
 import java.util.List;
 
 /**
- * @author Boris
- * @author Jana
- * @version 2.2.
+ * @version 2.2
  *
  * This class follows the Singleton Design pattern, meaning only one instance can be created of this class.
  *
@@ -82,8 +80,12 @@ public class Solver {
 
         Action<Node> nodeAction = node -> {
             double distanceToStart = dist.get(node);
-            String markup = " (" + TextUtil.format(distanceToStart) + ")";
-            node.setActualName(node.getActualName() + markup);
+            String name = node.getActualName();
+            if (name.length() == 0)
+                name += TextUtil.format(distanceToStart);
+            else
+                name += " (" + TextUtil.format(distanceToStart) + ")";
+            node.setActualName(name);
 
             Edge pathEdge = path.getOrDefault(node, null);
             if (pathEdge != null) {
@@ -137,13 +139,12 @@ public class Solver {
                     "There is no path between the marked start and goal nodes.",
                     "No Path Found", JOptionPane.INFORMATION_MESSAGE);
         } else {
-
             Action<Node> nodeAction = node -> {
                 if (node == startNode)
                     node.setActualFillColor(START_COLOR);
-                else if (node == goalNode)
+                else if (node == goalNode) {
                     node.setActualFillColor(GOAL_COLOR);
-                else {
+                } else {
 
                     boolean isPartOfPath = false;
                     for (Edge edge : path) {

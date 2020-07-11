@@ -16,8 +16,7 @@ import java.awt.geom.Rectangle2D;
 import java.util.List;
 
 /**
- * @author Boris
- * @version 4.0
+* @version 4.0
  *
  * This control can be used to choose a color for the selected Nodes in a graph. It is generic on how it retrieves and
  * sets colors on the Nodes, so it can be used for changing any colors of a Node, including text color, fill color and

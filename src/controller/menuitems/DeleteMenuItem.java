@@ -7,8 +7,7 @@ import utils.KeyUtil;
 import javax.swing.*;
 
 /**
- * @author Boris
- * @version 1.0
+* @version 1.0
  *
  * This control allows the user to delete selected Nodes and Edges from a graph.
  *

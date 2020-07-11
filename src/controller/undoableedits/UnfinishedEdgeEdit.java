@@ -11,8 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Jana
- * @version 1.0
+  * @version 1.0
  *
  * When adding an edge, the user drags a 'fake' edge until they click on an actual other
  * node that the edge should be connected to. This edit is responsible for making this fake

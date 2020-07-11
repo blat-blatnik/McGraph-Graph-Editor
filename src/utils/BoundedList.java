@@ -4,8 +4,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 
 /**
- * @author Boris
- * @version 1.0
+* @version 1.0
  *
  * Represents an ArrayList with a capped maximum item capacity. This is particularly useful for the Animation list as
  * having too many Animations running at once cripples performance.

@@ -12,8 +12,7 @@ import java.awt.geom.Rectangle2D;
 import java.util.List;
 
 /**
- * @author Boris
- * @version 2.0
+* @version 2.0
  *
  * This control allows the user toggle the NodeStyle of all selected Nodes to a particular variant. The style that this
  * control will toggle is a parameter of the constructor so that this control can be reused for all NodeStyles. When

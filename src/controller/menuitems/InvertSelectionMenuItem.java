@@ -11,8 +11,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author Boris
- * @version 1.0
+* @version 1.0
  *
  * This control allows the user to invert their selected Nodes and Edges. So if nodeA and nodeB are selected, but nodeC
  * is not, then nodeC will become selected and nodeA and nodeB will be deselected.

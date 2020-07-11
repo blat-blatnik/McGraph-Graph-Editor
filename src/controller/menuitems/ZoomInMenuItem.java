@@ -6,8 +6,7 @@ import javax.swing.*;
 import java.awt.event.KeyEvent;
 
 /**
- * @author Boris
- * @version 1.0
+* @version 1.0
  *
  * This control allows the user to zoom in with the GraphPanel's view.
  *

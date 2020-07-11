@@ -8,8 +8,7 @@ import javax.swing.*;
 import java.awt.geom.Path2D;
 
 /**
- * @author Boris
- * @version 1.9
+* @version 1.9
  *
  * This ToolBar houses all the controllers used to manipulate existing Edges in a GraphModel. The EdgeToolBar is not
  * visible to the user until they select an Edge.

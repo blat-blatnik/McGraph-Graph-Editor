@@ -13,8 +13,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 /**
- * @author Boris
- * @version 2.1
+* @version 2.1
  *
  * This control allows the user toggle the EdgeStyle of all selected Edges to a particular variant. The style that this
  * control will toggle is a parameter of the constructor so that this control can be reused for all EdgeStyles. When

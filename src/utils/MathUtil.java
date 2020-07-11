@@ -7,8 +7,7 @@ import java.util.List;
 
 /**
  * @version 999.0
- * @author Boris
- *
+*
  * This class contains a bunch of useful mathematical operations on scalars, Points, Lines, Rectangles, and other Shapes
  * as well as Colors.
  *

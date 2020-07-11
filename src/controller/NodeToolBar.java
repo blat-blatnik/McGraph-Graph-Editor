@@ -12,8 +12,7 @@ import java.awt.geom.Ellipse2D;
 import java.awt.geom.RoundRectangle2D;
 
 /**
- * @author Boris
- * @version 1.9
+* @version 1.9
  *
  * This ToolBar houses all of the controllers that manipulate existing Nodes from a GraphModel. The NodeToolBar is
  * invisible to the user until they select a Node from the GraphModel.

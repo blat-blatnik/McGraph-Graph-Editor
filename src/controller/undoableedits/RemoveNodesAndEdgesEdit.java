@@ -11,8 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Jana
- * @version 2.0
+  * @version 2.0
  *
  * This class takes care of all edits that relate to removing nodes, edges or both.
  * It removes these from the graph, and adds them back in the undo method.

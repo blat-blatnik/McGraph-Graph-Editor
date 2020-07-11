@@ -6,8 +6,7 @@ import java.text.DecimalFormat;
 import java.util.Arrays;
 
 /**
- * @author Boris
- * @version 2.0
+* @version 2.0
  *
  * This utility class loads all available system fonts and stores them in a convenient central place. It also contains
  * some common useful methods for manipulating text.

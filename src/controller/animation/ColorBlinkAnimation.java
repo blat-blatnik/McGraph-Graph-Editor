@@ -8,8 +8,7 @@ import java.awt.*;
 import java.util.List;
 
 /**
- * @author Boris
- * @version 2.0
+* @version 2.0
  *
  * Represents an Animation that blinks the Color of a list of objects between a Color, and it's lighter or darker
  * variant. This is a generic class that can be used to blink the Color's of any class T, in a fully generic manner.

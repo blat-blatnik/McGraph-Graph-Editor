@@ -15,8 +15,6 @@ import java.util.Properties;
 import java.util.Set;
 
 /**
- * @author Boris
- * @author Jana
  * @version 10.0
  *
  * A collection of utilities for saving and loading graph files, session properties, etc. Methods in this class can load

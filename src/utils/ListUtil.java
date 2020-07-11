@@ -5,8 +5,7 @@ import java.util.List;
 import java.util.function.Predicate;
 
 /**
- * @author Boris
- * @version 1.2
+* @version 1.2
  *
  * This utility class has commonly used functions for querying and manipulating lists and arrays.
  *

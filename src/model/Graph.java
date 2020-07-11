@@ -7,9 +7,7 @@ import java.awt.geom.Rectangle2D;
 import java.util.*;
 
 /**
- * @author Jana
- * @author Boris
- * @version 5.0
+  * @version 5.0
  *
  * This is the model for a graph. It is the main component of this model and keeps track of everything
  * that is happening in a graph, e.g. it stores nodes, edges, which ones are selected etc.

@@ -14,8 +14,7 @@ import java.awt.geom.Rectangle2D;
 import java.util.List;
 
 /**
- * @author Boris
- * @version 1.3
+* @version 1.3
  *
  * This control allows the user to select a new color for Edges. It also plays a ColorBlinkAnimation for Edge colors
  * when the user hovers their mouse over the button.

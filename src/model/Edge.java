@@ -9,9 +9,7 @@ import java.util.Observer;
 import java.util.List;
 
 /**
- * @author Jana
- * @author Boris
- * @version 10.0
+  * @version 10.0
  *
  * This class is responsible to store all data related to an edge of the graph. An edge is connecting two nodes,
  * at this point is not cyclic, thus cannot connect to itself, and has different shapes, directions, colors and weights.

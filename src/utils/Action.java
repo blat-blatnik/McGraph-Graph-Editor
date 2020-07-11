@@ -1,8 +1,7 @@
 package utils;
 
 /**
- * @author Boris
- * @version 2.0
+* @version 2.0
  *
  * Interface for an action that can be performed on some object.
  *

@@ -8,9 +8,7 @@ import java.awt.*;
 import java.util.Properties;
 
 /**
- * @author Jana
- * @author Boris
- * @version 10.0
+  * @version 10.0
  *
  * This class is the main class of the application that takes care of initialisation and starting up the program.
  *

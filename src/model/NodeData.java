@@ -6,8 +6,6 @@ import java.awt.geom.Rectangle2D;
 import java.util.Objects;
 
 /**
- * @author Boris
- * @author Jana
  * @version 2.0
  *
  * Data class holds all data of the node. The edge will be able to have multiple

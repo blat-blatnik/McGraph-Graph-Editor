@@ -11,8 +11,6 @@ import java.awt.event.KeyEvent;
 import java.util.List;
 
 /**
- * @author Boris
- * @author Jana
  * @version 1.5
  *
  * This control allows the user to modify the weights of the selected Edges of a graph.

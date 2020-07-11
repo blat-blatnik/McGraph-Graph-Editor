@@ -17,8 +17,6 @@ import java.util.Observer;
 import java.util.Properties;
 
 /**
- * @author Boris
- * @author Jana
  * @version 3.0
  *
  * The McGraph application frame.

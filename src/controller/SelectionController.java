@@ -19,8 +19,6 @@ import java.util.List;
 import java.util.ArrayList;
 
 /**
- * @author Boris
- * @author Jana
  * @version 999.0
  *
  * This controller class is responsible for handling most mouse related events such as mouse pressed, mouse released,

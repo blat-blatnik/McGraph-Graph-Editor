@@ -4,8 +4,7 @@ import java.awt.*;
 import java.awt.geom.*;
 
 /**
- * @author Boris
- * @version 1.0
+* @version 1.0
  *
  * This abstract class represents a diamond (a.k.a. rhombus) shape. It fully implements the Shape interface, meaning
  * it can be used for painting with Graphics/Graphics2D. Just like Rectangle2D, Point2D, and other shapes, there are

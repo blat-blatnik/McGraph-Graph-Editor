@@ -8,8 +8,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author Boris
- * @version 1.0
+* @version 1.0
  *
  * Represents an Animation that expands and then shrinks the rectangle bounds of Nodes. This Animation plays when the
  * user selects a Node. The Nodes will first expand, and then shrink back to their original size from before the

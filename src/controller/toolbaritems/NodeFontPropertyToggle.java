@@ -12,8 +12,7 @@ import java.awt.event.*;
 import java.util.List;
 
 /**
- * @author Boris
- * @version 2.1
+* @version 2.1
  *
  * This control can be used to toggle some property of the fonts of all selected Nodes. The property to toggle is a
  * parameter of the constructor, so this one class can be used for any font property - although only ITALIC and BOLD

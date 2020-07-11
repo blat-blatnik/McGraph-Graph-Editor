@@ -9,8 +9,7 @@ import javax.swing.undo.CannotRedoException;
 import javax.swing.undo.CannotUndoException;
 
 /**
- * @author Boris
- * @version 1.0
+* @version 1.0
  *
  * This edit is responsible for undoing and redoing the marking of the start and goal node that is
  * used in the solver.

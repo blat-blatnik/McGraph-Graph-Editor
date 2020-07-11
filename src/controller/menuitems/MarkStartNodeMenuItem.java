@@ -10,8 +10,7 @@ import javax.swing.*;
 import java.awt.event.KeyEvent;
 
 /**
- * @author Boris
- * @version 1.0
+* @version 1.0
  *
  * This control allows the user to mark a selected Node as the "start" Node for Solver operations.
  *

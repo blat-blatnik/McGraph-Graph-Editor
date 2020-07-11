@@ -1,8 +1,7 @@
 package model;
 
 /**
- * @author Boris
- * @version 1.2
+* @version 1.2
  *
  * This enum encodes which visual shape a Node has.
  *

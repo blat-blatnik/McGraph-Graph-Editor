@@ -10,8 +10,7 @@ import java.awt.event.KeyEvent;
 import java.io.File;
 
 /**
- * @author Boris
- * @version 1.1
+* @version 1.1
  *
  * This control allows the user to select a new graph file to load from their system
  *

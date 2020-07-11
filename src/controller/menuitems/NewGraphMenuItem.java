@@ -8,8 +8,7 @@ import javax.swing.*;
 import java.awt.event.KeyEvent;
 
 /**
- * @author Boris
- * @version 1.0
+* @version 1.0
  *
  * This control allows the user to completely clear the current graph of all Nodes and Edges.
  *

@@ -8,8 +8,7 @@ import javax.swing.*;
 import java.awt.event.KeyEvent;
 
 /**
- * @author Boris
- * @version 2.0
+* @version 2.0
  *
  * This MenuBar houses all of the MenuItem controls responsible for manipulating the GraphModel.
  *

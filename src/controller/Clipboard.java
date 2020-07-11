@@ -10,8 +10,6 @@ import java.util.List;
 import java.util.Observable;
 
 /**
- * @author Boris
- * @author Jana
  * @version 2.0
  *
  * This class represents the Clipboard that stores all Nodes and Edges that were copied/cut and can be pasted back.

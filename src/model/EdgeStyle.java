@@ -1,8 +1,7 @@
 package model;
 
 /**
- * @author Boris
- * @version 1.0
+* @version 1.0
  *
  * This enum encodes which visual style an Edge has.
  *

@@ -10,8 +10,7 @@ import java.awt.*;
 import java.awt.event.KeyEvent;
 
 /**
- * @author Boris
- * @version 1.0
+* @version 1.0
  *
  * This control invokes the graph-coloring functionality of the Solver.
  *

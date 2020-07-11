@@ -1,8 +1,7 @@
 package model;
 
 /**
- * @author Boris
- * @version 2.0
+* @version 2.0
  *
  * This enum represents the borders of a Node's shape that can be selected for resizing purposes. It defines the borders
  * in the 4 basic directions: LEFT, RIGHT, TOP, and BOTTOM, but it also encodes combinations that meet in one of the

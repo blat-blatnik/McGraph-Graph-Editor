@@ -1,8 +1,7 @@
 package utils;
 
 /**
- * @author Boris
- * @version 1.0
+* @version 1.0
  *
  * Represents a generic method of setting some property of some object that can be passed around as a parameter.
  *

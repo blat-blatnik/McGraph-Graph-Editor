@@ -17,8 +17,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Boris
- * @author Jana
  * @version 2.0
  *
  * The user can use this control to change the text of the selected Nodes in a graph.
