@@ -71,11 +71,6 @@ public class NodeAndEdgeEdit extends AbstractUndoableEdit {
             Action<Node> nodeAction,
             Action<Edge> edgeAction)
     {
-        if (nodesToChange.size() != oldNodes.size())
-            throw new IllegalArgumentException("Number of nodes to change is not the same as the number of old nodes");
-        if (edgesToChange.size() != oldEdges.size())
-            throw new IllegalArgumentException("Number of edges to change is not the same as the number of old edges");
-
         this.nodesToChange = new ArrayList<>();
         this.edgesToChange = new ArrayList<>();
         this.newNodeData = new ArrayList<>();
@@ -83,6 +78,11 @@ public class NodeAndEdgeEdit extends AbstractUndoableEdit {
         this.oldNodeData = new ArrayList<>();
         this.oldEdgeData = new ArrayList<>();
 
+        if (nodesToChange.size() != oldNodes.size())
+            return;
+        if (edgesToChange.size() != oldEdges.size())
+            return;
+        
         // stores copies of the node data in lists, storing the old and new data.
         for (int i = 0; i < nodesToChange.size(); ++i) {
             Node oldNode = oldNodes.get(i);
