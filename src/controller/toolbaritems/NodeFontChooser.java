@@ -34,6 +34,7 @@ public class NodeFontChooser extends JComboBox<String> {
 
     private final Graph graph;
     private boolean shouldChangeNodes;
+    private final Animation textColorAnimation;
 
     /**
      * Constructs a NodeFontChooser for a given graph.
@@ -46,6 +47,8 @@ public class NodeFontChooser extends JComboBox<String> {
         setSelectedIndex(0);
 
         this.graph = graph;
+        textColorAnimation = new ColorBlinkAnimation<>(
+                graph::getSelectedNodes, Node::getActualTextColor, Node::setVisualTextColor);
         shouldChangeNodes = true;
 
         //NOTE(Boris): The code below makes this combo box actually load at a reasonable speed.
@@ -67,6 +70,11 @@ public class NodeFontChooser extends JComboBox<String> {
 
             String newFontName = TextUtil.ALL_FONT_NAMES[getSelectedIndex()];
 
+            textColorAnimation.stop();
+            textColorAnimation.setCurrentTime(0);
+            for (Node node : graph.getSelectedNodes())
+                node.setVisualTextColor(node.getActualTextColor());
+
             new NodeEdit(graph, graph.getSelectedNodes(), node -> {
                 Font oldFont = node.getActualFont();
                 Font newFont = new Font(newFontName, oldFont.getStyle(), oldFont.getSize());
@@ -75,9 +83,6 @@ public class NodeFontChooser extends JComboBox<String> {
         });
 
         MouseListener hoverListener = new MouseAdapter() {
-            private final Animation textColorAnimation = new ColorBlinkAnimation<>(
-                    graph::getSelectedNodes, Node::getActualTextColor, Node::setVisualTextColor);
-
             @Override
             public void mouseEntered(MouseEvent e) {
                 textColorAnimation.play();
@@ -98,8 +103,12 @@ public class NodeFontChooser extends JComboBox<String> {
         addPopupMenuListener(new PopupMenuListener() {
             @Override
             public void popupMenuCanceled(PopupMenuEvent e) {
+                textColorAnimation.stop();
+                textColorAnimation.setCurrentTime(0);
                 for (Node node : graph.getSelectedNodes())
                     node.setVisualFont(node.getActualFont());
+                for (Node node : graph.getSelectedNodes())
+                    node.setVisualTextColor(node.getActualTextColor());
             }
 
             @Override
