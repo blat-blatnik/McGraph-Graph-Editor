@@ -30,7 +30,7 @@ public class ExploreGraphMenuItem extends JMenuItem {
      * @param panel The GraphPanel whose cursor will be changed to the "WAIT_CURSOR" during the Solver operation.
      */
     public ExploreGraphMenuItem(Graph graph, GraphPanel panel) {
-        super("Explore and Mark");
+        super("Explore Graph");
         setToolTipText("Find the distance of all nodes in the graph from the currently marked start node.");
 
         this.graph = graph;

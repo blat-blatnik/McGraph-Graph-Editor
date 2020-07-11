@@ -20,8 +20,8 @@ import java.util.List;
  * This PopupMenu appears when the user right-clicks on the GraphPanel. It provides some shortcuts to commonly used
  * controls.
  *
- * @see MarkStartNodeMenuItem
- * @see MarkGoalNodeMenuItem
+ * @see MarkStartMenuItem
+ * @see MarkGoalMenuItem
  * @see CutMenuItem
  * @see CopyMenuItem
  * @see PasteMenuItem
@@ -67,8 +67,8 @@ public class PopupMenu extends JPopupMenu {
         addNode.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_N, KeyUtil.MENU_KEY_MASK | KeyEvent.SHIFT_DOWN_MASK));
         addEdge.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_E, KeyUtil.MENU_KEY_MASK | KeyEvent.SHIFT_DOWN_MASK));
 
-        add(new MarkStartNodeMenuItem(graph));
-        add(new MarkGoalNodeMenuItem(graph));
+        add(new MarkStartMenuItem(graph));
+        add(new MarkGoalMenuItem(graph));
         addSeparator();
         add(addNode);
         add(addEdge);

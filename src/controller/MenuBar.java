@@ -32,8 +32,8 @@ import java.awt.event.KeyEvent;
  * @see FindShortestPathMenuItem
  * @see ExploreGraphMenuItem
  * @see ColorGraphMenuItem
- * @see MarkStartNodeMenuItem
- * @see MarkGoalNodeMenuItem
+ * @see MarkStartMenuItem
+ * @see MarkGoalMenuItem
  * @see ClearStartAndGoalMenuItem
  * @see InvertSelectionMenuItem
  */
@@ -88,8 +88,8 @@ public class MenuBar extends JMenuBar {
         solveMenu.add(new ExploreGraphMenuItem(graph, panel));
         solveMenu.add(new ColorGraphMenuItem(graph, panel));
         solveMenu.addSeparator();
-        solveMenu.add(new MarkStartNodeMenuItem(graph));
-        solveMenu.add(new MarkGoalNodeMenuItem(graph));
+        solveMenu.add(new MarkStartMenuItem(graph));
+        solveMenu.add(new MarkGoalMenuItem(graph));
         solveMenu.add(new ClearStartAndGoalMenuItem(graph));
 
         add(fileMenu);
