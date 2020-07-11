@@ -50,7 +50,9 @@ To use this feature, you must first mark the _start_ node for this operation by 
 
 Another useful feature of the graph solver is to perform [graph coloring](https://en.wikipedia.org/wiki/Graph_coloring). This will color all nodes in the graph such that no nodes that are connected by an edge share the same color. McGraph uses a [greedy graph coloring algorithm](https://en.wikipedia.org/wiki/Greedy_coloring) and uses heuristics to come up with a good node order. This means that graphs will _usually_ be colored with the smallest possible number of different colors, however, this is not _always_ the case. Even when the graph coloring isn't completely optimal, it usually comes pretty close.
 
-![](screenshots/usa.png)
+<p align="center">
+  <img width="773" height="333" src="screenshots/usa.png">
+</p>
 
 To use this feature, right click anywhere on the graph and select `Color Graph` from the pop-up menu.
 
